@@ -2,89 +2,236 @@
 
 # 🌾 Crop Planning & Management System
 
-A web-based platform built to help farmers and agricultural stakeholders manage crop records, planning, and recommendations more efficiently — replacing manual tracking with a simple digital system.
+### Smart Agriculture Management Platform built using PHP & MySQL
+
+<p align="center">
+
+<a href="https://cropmanagement.fwh.is/Project/" target="_blank">
+<img src="https://img.shields.io/badge/🌐_Live_Demo-Visit_Website-success?style=for-the-badge"/>
+</a>
+
+<a href="https://github.com/kulkarnicodes-dev/crop-planning-management-system" target="_blank">
+<img src="https://img.shields.io/badge/Source_Code-GitHub-black?style=for-the-badge&logo=github"/>
+</a>
+
+</p>
+
+A web-based platform developed to help farmers and agricultural stakeholders manage crop planning, crop records, and agricultural information digitally.
+
+---
 
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 </div>
 
 ---
 
-## 📖 About the Project
+# 📖 About The Project
 
-This project was built to address a real, practical problem — helping manage crop-related data (planning, records, and recommendations) through a simple, structured web application instead of manual/paper-based tracking. It was developed as part of my BBA (Computer Applications) coursework, combining backend logic (PHP/MySQL) with a clean, responsive frontend.
+The **Crop Planning & Management System** is a web-based application designed to simplify crop planning and agricultural record management.
 
-## 🚀 Features
+Instead of maintaining manual records, farmers and agricultural organizations can digitally manage crop information, maintain records, and access agricultural resources through a responsive web interface.
 
-- 🌱 **Crop Management** — add, view, and manage crop planning data
-- 📋 **Crop Records** — maintain structured historical records of crops
-- 📞 **Contact Form** — allows users to reach out directly through the platform
-- 📱 **Responsive UI** — usable across desktop and mobile screens
-- 🗄️ **MySQL Database Integration** — persistent, structured data storage
+This project demonstrates full-stack web development using **PHP, MySQL, HTML, CSS, JavaScript, and Bootstrap**.
 
-## 🛠️ Tech Stack
+---
 
-| Layer | Technology |
-|---|---|
+# ✨ Features
+
+- 🌱 Crop Planning Management
+- 📋 Crop Record Management
+- 👨‍🌾 Farmer-Friendly Interface
+- 📞 Contact Form
+- 🔐 User Registration & Login
+- 📱 Fully Responsive Design
+- 🗄️ MySQL Database Integration
+- ⚡ Fast & Lightweight
+
+---
+
+# 💻 Tech Stack
+
+| Category | Technologies |
+|----------|--------------|
+| Frontend | HTML5, CSS3, JavaScript, Bootstrap |
 | Backend | PHP |
 | Database | MySQL |
-| Frontend | HTML5, CSS3, JavaScript |
 | Local Server | XAMPP |
+| Hosting | InfinityFree |
 
-## 📂 Project Structure
+---
+
+# 📊 Project Statistics
+
+| Feature | Status |
+|---------|--------|
+| Login System | ✅ |
+| Registration | ✅ |
+| Database | ✅ |
+| Responsive Design | ✅ |
+| Live Website | ✅ |
+| CRUD Operations | ✅ |
+
+---
+
+# 📸 Screenshot Gallery
+
+## 🏠 Home Page
+
+<p align="center">
+<img src="Home.png" width="100%">
+</p>
+
+---
+
+## 🌾 Crop Planning
+
+<p align="center">
+<img src="Plan.png" width="100%">
+</p>
+
+---
+
+## 📋 Crop Records
+
+<p align="center">
+<img src="Record.png" width="100%">
+</p>
+
+---
+
+# 📂 Project Structure
+
+```text
 crop-planning-management-system/
 │
-├── img/                  # Static images/assets
-├── about.html            # About page
-├── contact.php           # Contact form handling
-├── config.php            # Database configuration
-├── croplaning.php        # Crop planning logic
-├── croprecord.php        # Crop records management
-└── crop_system.sql       # Database schema
-
-## ⚙️ Installation & Setup
-
-1. **Clone the repository**
-```bash
-   git clone https://github.com/kulkarnicodes-dev/crop-planning-management-system.git
+├── img/
+├── Home.png
+├── Plan.png
+├── Record.png
+├── about.html
+├── about.css
+├── config.php
+├── contact.php
+├── login.php
+├── signup.php
+├── croplaning.php
+├── croprecord.php
+├── crop_system.sql
+├── index.html
+├── README.md
+└── assets/
 ```
-2. **Move the project folder** into your `htdocs` directory (inside your XAMPP installation)
-3. **Import the database** — open phpMyAdmin and import `crop_system.sql`
-4. **Start services** — launch Apache and MySQL from the XAMPP control panel
-5. **Run the project** — open your browser and visit:
-   http://localhost/crop-planning-management-system
 
-## 📸 Screenshots
+---
 
-### 🏠 Home Page
+# ⚙️ Installation
 
-<p align="center">
-  <img src="Home.png" width="900">
-</p>
+### Clone Repository
 
-### 🌾 Crop Planning
+```bash
+git clone https://github.com/kulkarnicodes-dev/crop-planning-management-system.git
+```
 
-<p align="center">
-  <img src="Plan.png" width="900">
-</p>
+### Open Project
 
-### 📋 Crop Records
+Move the project into
 
-<p align="center">
-  <img src="Record.png" width="900">
-</p>
+```text
+xampp/htdocs/
+```
 
-## 🔮 Future Improvements
+### Import Database
 
-- Add crop yield forecasting based on historical data
-- Add user authentication for farmers/admins
-- Migrate to a modern framework (e.g. Django) for scalability
+Import
 
-## 👨‍💻 Author
+```text
+crop_system.sql
+```
 
-**Yash Kulkarni**
-[LinkedIn](https://www.linkedin.com/in/yash-kulkarni-3203433a0/) · [GitHub](https://github.com/kulkarnicodes-dev)
+using **phpMyAdmin**.
+
+### Configure Database
+
+Update
+
+```php
+config.php
+```
+
+with your MySQL credentials.
+
+### Start Server
+
+- Apache
+- MySQL
+
+using XAMPP.
+
+### Open Browser
+
+```text
+http://localhost/crop-planning-management-system
+```
+
+---
+
+# 🌐 Live Demo
+
+### 🚀 Website
+
+**https://cropmanagement.fwh.is/Project/**
+
+---
+
+# 🚀 Future Improvements
+
+- 🤖 AI Crop Recommendation
+- 🌦️ Weather API Integration
+- 📍 GPS Farm Location
+- 📈 Crop Yield Prediction
+- 🌐 Multi-language Support
+- 📱 Mobile App Version
+- ☁️ Cloud Deployment
+- 🔔 SMS & Email Notifications
+
+---
+
+# 📄 License
+
+This project is licensed under the **MIT License**.
+
+Feel free to use this project for educational purposes.
+
+---
+
+# 👨‍💻 Author
+
+## **Yash Kulkarni**
+
+Python & Django Developer
+
+### Connect With Me
+
+<a href="https://www.linkedin.com/in/yash-kulkarni-3203433a0/">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="https://github.com/kulkarnicodes-dev">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/>
+</a>
+
+---
+
+<div align="center">
+
+### ⭐ If you like this project, don't forget to give it a Star ⭐
+
+Made with ❤️ by **Yash Kulkarni**
+
+</div>
