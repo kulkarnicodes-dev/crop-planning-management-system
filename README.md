@@ -63,8 +63,8 @@ crop-planning-management-system/
 *(Add 1-2 screenshots of the app here — e.g. the crop planning page and crop records page. This is the single most impactful addition you can make.)*
 
 ```markdown
-![Crop Planning Page](img/screenshot1.png)
-![Crop Records Page](img/screenshot2.png)
+![Crop Planning Page](img/Crop Planning.jpeg)
+![Crop Records Page](img/Crop Record.jpeg)
 ```
 
 ## 🔮 Future Improvements
