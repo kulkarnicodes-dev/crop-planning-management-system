@@ -63,19 +63,19 @@ crop-planning-management-system/
 ### 🏠 Home Page
 
 <p align="center">
-  <img src="Home.jpg" width="900">
+  <img src="Home.png" width="900">
 </p>
 
 ### 🌾 Crop Planning
 
 <p align="center">
-  <img src="Crop Planning.jpg" width="900">
+  <img src="Plan.png" width="900">
 </p>
 
 ### 📋 Crop Records
 
 <p align="center">
-  <img src="Crop Record.jpg" width="900">
+  <img src="Record.png" width="900">
 </p>
 
 ## 🔮 Future Improvements
