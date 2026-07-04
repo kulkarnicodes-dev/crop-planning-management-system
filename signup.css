@@ -1,0 +1,32 @@
+/* Signup Page */
+.signup-body {
+    background: linear-gradient(135deg, #28a745, #155724);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-container {
+    width: 100%;
+    max-width: 400px;
+}
+
+.signup-box {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.signup-box h2 {
+    color: #218838;
+}
+
+.signup-box .form-control {
+    border-radius: 5px;
+}
+
+.btn-block {
+    border-radius: 5px;
+}
