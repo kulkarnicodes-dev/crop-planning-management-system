@@ -36,3 +36,44 @@ This project was built to address a real, practical problem — helping manage c
 | Local Server | XAMPP |
 
 ## 📂 Project Structure
+crop-planning-management-system/
+│
+├── img/                  # Static images/assets
+├── about.html            # About page
+├── contact.php           # Contact form handling
+├── config.php            # Database configuration
+├── croplaning.php        # Crop planning logic
+├── croprecord.php        # Crop records management
+└── crop_system.sql       # Database schema
+
+## ⚙️ Installation & Setup
+
+1. **Clone the repository**
+```bash
+   git clone https://github.com/kulkarnicodes-dev/crop-planning-management-system.git
+```
+2. **Move the project folder** into your `htdocs` directory (inside your XAMPP installation)
+3. **Import the database** — open phpMyAdmin and import `crop_system.sql`
+4. **Start services** — launch Apache and MySQL from the XAMPP control panel
+5. **Run the project** — open your browser and visit:
+   http://localhost/crop-planning-management-system
+
+## 📸 Screenshots
+
+*(Add 1-2 screenshots of the app here — e.g. the crop planning page and crop records page. This is the single most impactful addition you can make.)*
+
+```markdown
+![Crop Planning Page](img/screenshot1.png)
+![Crop Records Page](img/screenshot2.png)
+```
+
+## 🔮 Future Improvements
+
+- Add crop yield forecasting based on historical data
+- Add user authentication for farmers/admins
+- Migrate to a modern framework (e.g. Django) for scalability
+
+## 👨‍💻 Author
+
+**Yash Kulkarni**
+[LinkedIn](https://www.linkedin.com/in/yash-kulkarni-3203433a0/) · [GitHub](https://github.com/kulkarnicodes-dev)
