@@ -60,12 +60,23 @@ crop-planning-management-system/
 
 ## 📸 Screenshots
 
-*(Add 1-2 screenshots of the app here — e.g. the crop planning page and crop records page. This is the single most impactful addition you can make.)*
+### 🏠 Home Page
 
-```markdown
-![Crop Planning Page](Crop Planning.jpeg)
-![Crop Records Page](Crop Record.jpeg)
-```
+<p align="center">
+  <img src="Home.jpg" width="900">
+</p>
+
+### 🌾 Crop Planning
+
+<p align="center">
+  <img src="Crop Planning.jpg" width="900">
+</p>
+
+### 📋 Crop Records
+
+<p align="center">
+  <img src="Crop Record.jpg" width="900">
+</p>
 
 ## 🔮 Future Improvements
 
